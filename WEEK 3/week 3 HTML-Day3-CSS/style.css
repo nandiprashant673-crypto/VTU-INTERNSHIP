@@ -1,0 +1,38 @@
+/* Background color */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styling */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    color: black;
+}
+
+/* Box styling */
+.box {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+/* Button styling */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}

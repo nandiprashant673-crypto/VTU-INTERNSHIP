@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Basics</title>
+</head>
+<body>
+
+    <h1 id="text">Welcome to JavaScript</h1>
+
+    <!-- 1. Alert Button -->
+    <button onclick="showAlert()">Click for Alert</button>
+
+    <hr>
+
+    <!-- 2. Form Validation -->
+    <h2>Form Validation</h2>
+    <form onsubmit="return validateForm()">
+        Name: <input type="text" id="name">
+        <br><br>
+        Email: <input type="text" id="email">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- 3. Simple Calculator -->
+    <h2>Simple Calculator</h2>
+    Number 1: <input type="number" id="num1">
+    <br><br>
+    Number 2: <input type="number" id="num2">
+    <br><br>
+    <button onclick="calculate()">Add</button>
+    <p id="result"></p>
+
+    <hr>
+
+    <!-- 4. Change Text -->
+    <button onclick="changeText()">Change Heading Text</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

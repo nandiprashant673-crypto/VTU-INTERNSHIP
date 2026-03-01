@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Design</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;  /* Percentage Width */
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .box {
+            width: 45%;
+            background-color: #2196F3;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        /* Media Query for Mobile */
+        @media screen and (max-width: 600px) {
+            .box {
+                width: 100%;
+                display: block;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+
+        .footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Responsive Website</h1>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h3>Box 1</h3>
+            <p>This box adjusts based on screen size.</p>
+        </div>
+
+        <div class="box">
+            <h3>Box 2</h3>
+            <p>This is another responsive box.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 Responsive Design</p>
+    </div>
+
+</body>
+</html>

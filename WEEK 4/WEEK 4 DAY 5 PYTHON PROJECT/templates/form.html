@@ -1,0 +1,11 @@
+<hr>
+<h3>Stored Students:</h3>
+
+<ul>
+    {% for student in students %}
+        <li>
+            {{ student[1] }} - {{ student[2] }} years old
+            <a href="/delete/{{ student[0] }}">Delete</a>
+        </li>
+    {% endfor %}
+</ul>
